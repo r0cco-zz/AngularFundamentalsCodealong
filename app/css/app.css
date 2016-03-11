@@ -77,6 +77,10 @@ select, textarea {
     background-color: #272b30;
 }
 
+input.ng-dirty.ng-invalid {
+	background-color:pink;
+}
+
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
 }
